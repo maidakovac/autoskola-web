@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="bs-BA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Svjetlosni znak | Auto škola Sarajevo</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <script src="js.js" defer></script>
+</head>
+
+<body>
+
+<header>  
+        <div id="toolbar">
+            <div id="contact-info">
+                <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                <small id="contact-info1">Adresa b.b.</small>
+
+                <small class="fa fa-clock text-primary me-2"></small>
+                <small id="contact-info1"> Pon-Pet 08:00-17:00 | Sub: 08:00-15:00 </small>
+
+                <small class="fa fa-phone-alt text-primary me-2"></small>
+                <small id="contact-info1"> +387 61 123 123</small>
+            </div>
+            <small id="name" style="font-weight: bold; text-align: center;"> SVJETLOSNI ZNAK</small>
+
+            <div id="menu-icon" onclick="toggleMenu()">☰ </div>
+
+            <nav id="navbar">                
+                <img src="images/logo.png"  alt="logo" id="logo" onclick="scrollToHero()">
+                <ul>
+                  <li><a href="#onama">O nama</a></li>
+                  <li><a href="#iskustva">Iskustva</a></li>
+                  <li><a href="#polozivozacki">Položi vozački</a></li>
+                  <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+</header>
+
+<section id="hero">
+        <div class="hero-content">
+            <h2>Svjetlosni znak</h2>
+            <p>Neka vaše putovanje počne sa nama</p>
+        </div>
+</section>
+    
+    <div class="about-section" id="aboutSection">
+            <h1>Zelena škola za zeleni grad!</h1>
+            <p>Pripremite se za vozački ispit uz pomoć iskusnog licenciranog instruktora!</p>
+    </div>
+
+<section id="onama">       
+          
+          <h2 style="text-align:center; text-transform:uppercase; color:rgb(255, 255, 255) ; padding: 30px;">O nama</h2>
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="images/instruktor.jpg" alt="Haris" style="width:100%">
+
+                <div class="container">
+                  <h2 style="font-size: 19px;">Ime Prezime</h2>
+                  <p class="title" style="font-size: 18px;">Vlasnik</p>
+                  <p style="font-size: 18px;">Instruktor vožnje</p>                  
+                </div>
+
+                <p><button class="button" onclick="togglePhoneNumber()">Kontakt</button></p>
+                <p class="phone-number" id="phoneNumber"> +387 61 123 123</p>
+              </div>
+            </div> 
+
+        
+            <div class="onama">
+                <div class="card">
+                  <div class="container">
+                    <h2 class="h2-info">Upoznajte nas:</h2>
+                    <p class="p-info">Autoškola osnovana 2023. godine od strane iskusnog instruktora koji se već dugi niz godina uspješno bavi obukom vozača. </p>
+                    <p class="p-info">Škola je stvorena sa jasnim ciljem - olakšati kandidatima da uspješno prođu proces obuke na najjednostavniji mogući način. Želimo pružiti prijateljski odnos i pozitivan ambijent, eliminirati stres i pritisak, kako bismo stvorili optimalno okruženje za uspješno savladavanje vozačkih izazova. </p>
+                    <p class="p-info">Obuka je orijentisana ka vašem uspjehu i sigurnosti na putu, te nudi podršku i stručnost tokom čitavog vašeg vozačkog puta.</p>
+                   </div>
+                </div>
+              </div>
+
+
+            <div class="info">
+                <div class="card">
+                  <div class="container">
+                    <h2 class="h2-info">Zašto smo mi najbolji izbor:</h2>
+
+                    <div class="info-card">
+                        <i class="bi bi-check"></i> 
+                        <p>Dugogodišnje iskustvo i profesionalizam pružaju visokokvalitetnu obuku</p>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="bi bi-check"></i>
+                        <p>Posvećen instruktor koji se ovim poslom bavi preko 30 godina</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <i class="bi bi-check"></i> 
+                        <p>Otvorena i prijateljska atmosfera</p>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="bi bi-check"></i> 
+                        <p>Stvaramo i održavamo dobre odnose sa našim kandidatima</p>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="bi bi-check"></i> 
+                        <p>Fleksibilni termini za održavanje časova</p>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="bi bi-check"></i> 
+                        <p>Individualni pristup svakom kandidatu sa izuzetnim strpljenjem</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+</section>
+
+    
+<section  id="iskustva" >
+
+        <div class="iskustva-h2">
+          <h2>Iskustva </h2>
+        </div>
+        
+        <section id="recenzije">
+
+        <div class="recenzija">
+            <div class="container">
+              <img src="images/kandidat1.avif" alt="Kandidat" class="kandidatslika" >
+              <div class="iskustvo">
+                <h2 style="color: #5A9F68;">Ime Prezime</h2>
+                <p class="title">Kandidat</p>
+                <p  class="misljenje">Autoškola "Svjetlosni Znak" je izvanredno mjesto za sticanje vozačkih vještina. Instruktor Haris je stručan, predan i uvijek spreman pružiti potrebnu podršku kako bi polaznici osjetili sigurnost i samopouzdanje za volanom. Temeljito pristupa svakom kandidatu i uvijek je pozitivan i prijateljski nastrojen. Toplo preporučujem Autoškolu "Svjetlosni znak" svakome ko želi postati siguran i odgovoran vozač.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="recenzija">
+            <div class="container">
+              <img src="images/kandidat2.jpg"  alt="Kandidat" class="kandidatslika">
+              <div class="iskustvo">
+                <h2 style="color: #5A9F68;">Ime Prezime</h2>
+                <p class="title">Kandidat</p>
+                <p class="misljenje">Iskustvo u Autoškoli "Svjetlosni znak" bilo je izuzetno i nezaboravno. Instruktor je bio strpljiv i profesionalan, prilagođavao se mojim individualnim potrebama. Tokom cijele obuke, osjećao sam se podržano i motivisano da postanem odgovoran vozač. Autoškola "Svjetlosni znak" zaslužuje sve pohvale, i od srca je preporučujem svakome ko želi kvalitetnu vozačku edukaciju.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="recenzija">
+            <div class="container">
+              <img src="images/kandidat3.png"  alt="Kandidat" class="kandidatslika">
+              <div class="iskustvo">
+                <h2 style="color: #5A9F68;">Ime Prezime</h2>
+                <p class="title">Kandidat</p>
+                <p  class="misljenje">Samo riječi hvale za autoškolu "Svjetlosni znak". Fleksibilni termini za obuku i opuštena atmosfera.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+</section>
+
+<section id="polozivozacki">
+        <div class="iskustva-h2">
+            <h2>Položi vozački</h2>
+            <p>Sve što ti je potrebno da položiš vozački ispit na jednom mjestu</p>
+        </div>
+
+        <div class="paketi">
+            <div class="paket">
+              <div class="card0">
+                <img src="images/kategorija2.avif" alt="kategorija _" style="width:100%">
+                <div class="container">
+                  <h2 style="text-align: center;">B kategorija</h2>
+                  <p class="title">navršenih godina života: 18</p>
+                  <p>Motorna vozila, osim vozila kategorije A, čija najveća dozvoljena masa nije veća od 3.500 kg i koja nemaju više od osam sjedišta ne računajući sjedište za vozača.</p>                  
+                </div>
+              </div>
+            </div>
+          
+            <div class="paket">
+              <div class="card0">
+                <img src="images/c1.jpg" alt="kategorija _" style="width:100%">
+                <div class="container">
+                  <h2 style="text-align: center;">C1 kategorija</h2>
+                  <p class="title">navršenih godina života: 18</p>
+                  <p>Motorna vozila za prevoz tereta čija je najveća dozvoljena masa veća od 3.500 kg, a manja od 7.500 kg.</p>            
+                </div>
+              </div>
+            </div>
+          
+            <div class="paket">
+              <div class="card0">
+                <img src="images/c.jpg" alt="kategorija _" style="width:100%">
+                <div class="container">
+                  <h2 style="text-align: center;">C kategorija</h2>
+                  <p class="title">navršenih godina života: 21</p>
+                  <p>Motorna vozila za prevoz tereta čija je najveća dozvoljena masa veća od 7.500 kg. </p>                  
+                </div>
+              </div>
+            </div>
+
+            <div class="paket">
+              <div class="card0">
+                <img src="images/ce.jpg" alt="kategorija _" style="width:100%">
+                <div class="container">
+                  <h2 style="text-align: center;">CE kategorija</h2>
+                  <p class="title">navršenih godina života: 21</p>
+                  <p>Skupovi vozila čija se vučna vozila ubrajaju u kategoriju C, a priključna vozila imaju najveću dozvoljenu masu veću od 750 kg.</p>                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h2 style="text-align:center; color:#5A9F68; margin: 40px;">MATERIJALI</h2>
+            <p class="matp" >Zakonom o izmjenama i dopunama Zakona o osnovama bezbjednosti saobraćaja na putevima u BiH („Službeni glasnik BiH”, broj: 48/10) je naloženo Ministarstvu prometa i komunikacija BiH da izradi jedinstven katalog testovnih pitanja, a obaveza Ministarstva za obrazovanje, nauku i mlade je da na temelju pitanja iz kataloga formira testove za polaganje vozačkog ispita.</p>
+            <p class="matp" >S tim u vezi, ovdje možete pronaći nova testovna pitanja sa odgovorima:</p>
+
+            <div class="materijali">
+
+              <div class="test">
+                <div class="box">
+                  <div class="container">                    
+                    <p class="title">Katalog pitanja</p>
+                    <p>OBLAST 1</p>                
+                    <p ><a  style="text-decoration: none;" href="https://mo.ks.gov.ba/sites/mo.ks.gov.ba/files/2023-06/novi_katalog_sa_odgovorima_0.pdf" class="button-t1"  target="_blank">preuzmi</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="test">
+                <div class="box">                  
+                  <div class="container">                    
+                    <p class="title">Katalog pitanja</p>
+                    <p>OBLAST 2</p>                     
+                    <p><a  style="text-decoration: none;" href="https://mo.ks.gov.ba/sites/mo.ks.gov.ba/files/2023-06/katalog%20pitanja%20oblast%20II.pdf" class="button-t2"  target="_blank">preuzmi</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="test">
+                <div class="box">
+                  <div class="container">
+                    <p class="title">Katalog pitanja</p>
+                    <p>OBLAST 3</p> 
+                    <p><a  style="text-decoration: none;" href="https://mo.ks.gov.ba/sites/mo.ks.gov.ba/files/2023-06/katalog%20pitanja%20oblast%20III%20Prepravljeno.pdf" class="button-t3"  target="_blank">preuzmi</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="test">
+                <div class="box">
+                  
+                  <div class="container">
+                    <p class="title">Katalog pitanja</p>
+                    <p>PRVA POMOĆ</p> 
+                    <p><a  style="text-decoration: none;" href="https://mo.ks.gov.ba/sites/mo.ks.gov.ba/files/2023-06/katalog_prva_pomoc_nova_pitanja_0.pdf" class="button-t4"  target="_blank">preuzmi</a>
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+</section>
+
+    
+
+<section id="kontakt">
+
+      
+        <div class="iskustva-h2">
+          <h2>KONTAKT</h2>
+          <p>Uvijek smo dostupni za naše klijente</p>
+        </div>
+
+        <div class="contact">
+          
+          <div class="row0">
+
+            <div class="column0">
+              <img src="images/slika0.jpg" style="width:100%">
+            </div>
+
+            <div class="column0">
+
+              <p class="kontakt-p">Ukoliko želite da započnete obuku ili imate bilo kakvih nedoumica, možete nam se obratiti putem telefona ili dolaskom u našu kancelariju:</p>
+
+              <div class="contact.information">
+
+                <div class="contact-subclass">
+                  <p class="fa fa-phone-alt text-primary me-2"></p>
+                  <p id="contact-info2">+387 61 123 123</p>
+                </div>
+
+                <div class="contact-subclass">
+                  <p class="fa fa-map-marker-alt text-primary me-2"></small>
+                  <p id="contact-info2">Adresa b.b.</p>
+                </div>
+                
+                <div class="contact-subclass">
+                  <p class="fa fa-clock text-primary me-2"></p>
+                  <p id="contact-info2">Pon-Pet 08:00-17:00 </p>
+                </div>
+                
+                <div class="contact-subclass">
+                  <p class="fa fa-clock text-primary me-2"></p>
+                  <p id="contact-info2">Sub 08:00-15:00 </p>
+                </div>
+
+                <div class="contact-subclass">
+                  <p class="fa fa-clock text-primary me-2"></p>
+                   <p id="contact-info2">Nedjeljom ne radimo</p>
+                </div>
+
+
+              
+              </div>
+             </div>              
+            </div>
+          </div>
+        </div>
+</section>
+    
+
+<footer>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1557.445859431637!2d18.413844505487795!3d43.85444858438051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c9002505808b%3A0x9949341ec3cbacac!2sAuto%C5%A1kola%20Svjetlosni%20znak%20Sarajevo!5e0!3m2!1sen!2sba!4v1709580681394!5m2!1sen!2sba" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+       
+      <hr>
+            
+      <div class="rights">
+        <div class="foot-rights">
+          <p>Svjetlosni znak &copy; 2024 - Sva prava zadržana.</p>         
+        </div>
+
+        <div class="socials">
+          <a href="https://www.instagram.com/autoskola_svjetlosniznak?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+            <img src="images/insta.png" alt="" class="iglogo">
+           </a>
+        </div>
+
+        <div class="credits">
+        </div>
+      </div>
+        
+</footer>
+    
+</body>
+</html>
